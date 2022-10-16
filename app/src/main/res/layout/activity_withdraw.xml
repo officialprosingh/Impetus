@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WithdrawActivity">
+
+    <Button
+        android:id="@+id/withdraw_back"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/backwhite48" />
+
+    <TextView
+        android:id="@+id/withdraw_totalpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="50dp"
+        android:text="Total Points"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/withdraw_rewards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/withdraw_totalpoints"
+        android:layout_marginLeft="280dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="48dp" />
+
+    <RelativeLayout
+        android:id="@+id/withdraw1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/withdraw_rewards"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/layout_bg">
+
+
+        <RelativeLayout
+            android:id="@+id/withdraw_card1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout2_bg">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/starbucks" />
+
+            <TextView
+                android:id="@+id/withdraw_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Starbucks"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withdraw_name"
+                android:layout_marginLeft="100dp"
+                android:text="5$ Giftcard"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="14dp"
+                android:text="150"
+                android:textColor="@color/black"
+                android:textSize="34dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/withdraw_card2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/withdraw_card1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout2_bg">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/donalds" />
+
+            <TextView
+                android:id="@+id/withdraw_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="McDonalds"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withdraw_name1"
+                android:layout_marginLeft="100dp"
+                android:text="5$ Giftcard"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="14dp"
+                android:text="150"
+                android:textColor="@color/black"
+                android:textSize="34dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/withdraw_card3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/withdraw_card2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout2_bg">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/addidas" />
+
+            <TextView
+                android:id="@+id/withdraw_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Addidas"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withdraw_name2"
+                android:layout_marginLeft="100dp"
+                android:text="10$ Giftcard"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="14dp"
+                android:text="300"
+                android:textColor="@color/black"
+                android:textSize="34dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/withdraw_card4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/withdraw_card3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout2_bg">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hm" />
+
+            <TextView
+                android:id="@+id/withdraw_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="HM"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withdraw_name3"
+                android:layout_marginLeft="100dp"
+                android:text="15$ Giftcard"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="14dp"
+                android:text="450"
+                android:textColor="@color/black"
+                android:textSize="34dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/withdraw_card5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/withdraw_card4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout2_bg">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/amazon" />
+
+            <TextView
+                android:id="@+id/withdraw_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="8dp"
+                android:text="Amazon"
+                android:textColor="@color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withdraw_name4"
+                android:layout_marginLeft="100dp"
+                android:text="15$ Giftcard"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="14dp"
+                android:text="450"
+                android:textColor="@color/black"
+                android:textSize="34dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>

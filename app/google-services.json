@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "933458443367",
+    "project_id": "class-rewards",
+    "storage_bucket": "class-rewards.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933458443367:android:ac80965afa10bdaa32a8c2",
+        "android_client_info": {
+          "package_name": "com.pro.classrewards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933458443367-s2d1m2iu4piib8k651d12odkmk5ddqst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pro.classrewards",
+            "certificate_hash": "0e74106d9c0606b9f3b4a364606b701e6fa44724"
+          }
+        },
+        {
+          "client_id": "933458443367-3g4o25e3acseirrlpnavcdflcnjv69m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPgL-K5yYkxf2UoWgrq2bDxuQMYn-8qX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933458443367-3g4o25e3acseirrlpnavcdflcnjv69m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

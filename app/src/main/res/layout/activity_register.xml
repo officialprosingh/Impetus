@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/register_logo"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/register_student" />
+
+    <TextView
+        android:id="@+id/RegisterView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_logo"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="helvetica"
+        android:text="Let's"
+        android:textColor="@color/white"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/RegisterView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_logo"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="helvetica"
+        android:text="Study hard and get rewarded!"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/RegisterView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_logo"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="helvetica"
+        android:text="Earn points to go to classes, and redeem them for great rewards."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Register_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RegisterView3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:width="166dp"
+        android:height="78dp"
+        android:background="@drawable/button_bg"
+        android:text="Register"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Register_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RegisterView3"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:width="166dp"
+        android:height="78dp"
+        android:text="Sign in"
+        android:textSize="22sp" />
+
+
+<RelativeLayout
+    android:id="@+id/secretloginp"
+    android:layout_width="100dp"
+    android:layout_height="50dp" />
+
+</RelativeLayout>

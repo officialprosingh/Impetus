@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/helloagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="100dp"
+        android:width="219dp"
+        android:height="50dp"
+        android:text="Hello Again!"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/welcomeback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helloagain"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:text="Welcome back you’ve been missed!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/welcomeback"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/login_email"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/login_recover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="Recover Password"
+        android:textAllCaps="false"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/login_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_recover"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:width="281dp"
+        android:height="56dp"
+        android:background="@drawable/login_btn"
+        android:text="Sign in"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/login_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_sign"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:text="Or"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/login_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_or"
+        android:layout_marginLeft="100dp"
+        android:background="@android:color/transparent"
+        android:text="Not a member? Register Now"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

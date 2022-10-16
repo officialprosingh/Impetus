@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Putclass_Activity">
+
+    <TextView
+        android:id="@+id/put_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="80dp"
+        android:width="219dp"
+        android:height="50dp"
+        android:text="Add a Class!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/c_number"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/put_class"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Class Catalog Number"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/c_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/c_number"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Course Name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/c_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/c_name"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter Instructor Name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/c_location"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/c_teacher"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Class Location"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/c_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/c_location"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="41dp"
+        android:width="340dp"
+        android:height="47dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Class Credit Hours"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp" />
+
+
+
+
+    <Button
+        android:id="@+id/put_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c_hours"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="32dp"
+        android:width="281dp"
+        android:height="56dp"
+        android:background="@drawable/login_btn"
+        android:text="Add Class"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+
+
+
+</RelativeLayout>

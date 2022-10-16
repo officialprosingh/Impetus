@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.2796296296296296" />
+        <entry key="app/src/main/res/drawable/checkin_btn.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2796296296296296" />
+        <entry key="app/src/main/res/drawable/ic_baseline_card_giftcard_24.xml" value="0.18611111111111112" />
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2611111111111111" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/drawable/layout2_bg.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/drawable/login_btn.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/activity_addclass.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/activity_check.xml" value="0.18297101449275363" />
+        <entry key="app/src/main/res/layout/activity_faq.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_frogot.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_professor.xml" value="0.18297101449275363" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/activity_putclass.xml" value="0.321875" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_rewards.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_scan.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_teacher.xml" value="0.25181159420289856" />
+        <entry key="app/src/main/res/layout/activity_vcourse.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/activity_withdraw.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/confirm_redeem.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/courses.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/layout_course_list.xml" value="0.245018115942029" />
+        <entry key="app/src/main/res/layout/layout_professor_access.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/layout_user_course_list.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13072916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1503623188405797" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

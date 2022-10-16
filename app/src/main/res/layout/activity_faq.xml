@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaqActivity">
+
+    <Button
+        android:id="@+id/faq_back"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/backwhite48" />
+
+    <TextView
+        android:id="@+id/faqtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_below="@id/faq_back"
+        android:text="FAQ and Support"
+        android:layout_marginLeft="24dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/faqd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faqtitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:text="Didn't find the answer you were looking for?"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/faqd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:text="Contact our support center!"
+        android:layout_below="@id/faqd1"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/faq_card1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/faqd2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/website50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to our Website"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/faq_card2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/faq_card1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/email50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Email Us"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/faq_card3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/faq_card2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="How do I Sign in or Add my class?"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q1"
+            android:text="Ans - You can add Classes to your Account by clicking on add class button on your dashboard."
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/faq_card4"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/faq_card3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="What are the other ways I can earn Points ?"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q2"
+            android:text="Ans - Currently, we are only offering rewards for class attendance, but soon we will be offering points for joining clubs, and many other campus activities. So stay tuned !!"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/faq_card5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/faq_card4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Will my points expire after some time ?"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q3"
+            android:text="Ans - The points you earn, they will never expire, and you can redeem them any time you want."
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/faq_card6"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/faq_card5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="How can I add my club/organization into the app?"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q4"
+            android:text="Ans - We are currently working on the update, and soon you will see a option on your dashboard to add clubs to your profile."
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
