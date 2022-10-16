@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity implements UserAdapter.MyUse
     public void addMoney(){
         String userId = mAuth.getUid();
         int adding = 10;
-        int finalmoney = adding + Score;
+        int finalmoney = Score + adding ;
         main_rewards.setText(Integer.toString(finalmoney));
         databaseReference.child(userId).child("Points").setValue(finalmoney);
 
